@@ -11,10 +11,16 @@ import ts from "./svg/ts.svg";
 
 const Main: FunctionComponent = props => {
   const portfolio: IPortfolio[] = [
-    {
-      image: "./img/cookietouch.png",
-      link: "https://cookietouch.com/",
-      description: "Dofus Touch bot made with Electron & TypeScript. React and Material UI for the interface.",
+    // {
+    //   image: "./img/cookietouch.png",
+    //   link: "https://cookietouch.com/",
+    //   description: "Dofus Touch bot made with Electron & TypeScript. React and Material UI for the interface.",
+    //   badges: ["nodejs", "react", "typescript", "electron"],
+		// },
+		{
+      image: "https://fakeimg.pl/400x400/",
+      link: "https://github.com/yovanoc/starter/",
+      description: "Electron / React / TypeScript Project Starter",
       badges: ["nodejs", "react", "typescript", "electron"],
     },
     {
@@ -72,17 +78,17 @@ const Main: FunctionComponent = props => {
 
 			  <div className="main-container bg-light">
 				<div className="container">
-				<h1 className="big-title center">Skills</h1>
+				<h1 className="big-title text-center">Skills</h1>
 				<div className="row align-items-center">
 				  <ul className="list-unstyled col">
 					  <li className="media mt-0">
-						<img width="64" height="64" className="mr-3" src={csharp} alt="TypeScript" />
+						<img width="64" height="64" className="mr-3" src={ts} alt="TypeScript" />
 						<div className="media-body">
 						  <h5 className="mt-0 mb-1">TypeScript</h5>
 						  This language is a great superset of javascript, it allows to type code much faster and cleaner.
 						</div>
 					  </li>
-					  <li className="media my-4">
+					  <li className="media my-4 text-right">
 						  <div className="media-body">
 							<h5 className="mt-0 mb-1">NodeJS</h5>
 							Since 2 years, NodeJS is my favorite environment to develop some useful projects.
@@ -96,7 +102,7 @@ const Main: FunctionComponent = props => {
 						  React is my best choice to develop UI quickly, with real time updates.
 						</div>
 					  </li>
-					  <li className="media my-4">
+					  <li className="media my-4 text-right">
 						  <div className="media-body">
 							<h5 className="mt-0 mb-1">Electron</h5>
 							The ability to code "for the web" and compile a cross platform application is very interesting.
@@ -110,7 +116,7 @@ const Main: FunctionComponent = props => {
 						  A good language but, now, I prefer to start projects with TypeScript.
 						</div>
 					  </li>
-					  <li className="media my-4">
+					  <li className="media my-4 text-right">
 						  <div className="media-body">
 							<h5 className="mt-0 mb-1">PHP</h5>
 							 SOME TEXT
@@ -124,7 +130,7 @@ const Main: FunctionComponent = props => {
 						  My favorite PHP Framework.
 						</div>
 					  </li>
-					  <li className="media my-4">
+					  <li className="media my-4 text-right">
 						  <div className="media-body">
 							<h5 className="mt-0 mb-1">C#</h5>
 							With Net Core I like to develop some cross platform cli app.
@@ -134,11 +140,9 @@ const Main: FunctionComponent = props => {
 					</ul>
 					<hr />
 				  </div>
-				  <h1 className="big-title center">Personal Projects</h1>
+				  <h1 className="big-title text-center">Personal Projects</h1>
 				  <div className="row">
-					{portfolio.map((item, index) => (
-						<ImagePortfolio key={index} portfolio={item} />
-					))}
+						{portfolio.map((item, index) => <ImagePortfolio key={index} portfolio={item} />)}
 				  </div>
 				</div>
 			  </div>
