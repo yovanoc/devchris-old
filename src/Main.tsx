@@ -78,7 +78,7 @@ const Main: FunctionComponent = props => {
 
 			  <div className="main-container bg-light">
 				<div className="container">
-				<h1 className="big-title text-center">Skills</h1>
+				<h1 className="big-title text-center pt-3">Skills</h1>
 				<div className="row align-items-center">
 				  <ul className="list-unstyled col">
 					  <li className="media mt-0">

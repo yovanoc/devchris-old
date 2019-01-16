@@ -10,7 +10,7 @@
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
   margin-bottom: 0;
-  background-color: #fff;
+  background-color: #f2f2f2;
 }
 @media (min-width: 768px) {
   .jumbotron {
@@ -50,10 +50,6 @@
 	margin: 50px 0px;
 }
 
-.media {
-	margin-bottom: 50px;
-}
-
 .list-unstyled a {
 	color: white;
 }
@@ -61,4 +57,10 @@
 .list-unstyled a:hover {
 	text-decoration: none;
 	color: lightblue;
+}
+
+.media {
+  background-color: rgba(194, 194, 194, 0.22);
+  border-radius: 5px;
+  padding: 10px;
 }
