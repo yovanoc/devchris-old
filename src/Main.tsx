@@ -88,6 +88,7 @@ const Main: FunctionComponent = props => {
 						  This language is a great superset of javascript, it allows to type code much faster and cleaner.
 						</div>
 					  </li>
+						<hr/>
 					  <li className="media my-4 text-right">
 						  <div className="media-body">
 							<h5 className="mt-0 mb-1">NodeJS</h5>
@@ -95,6 +96,7 @@ const Main: FunctionComponent = props => {
 						  </div>
 						<img width="64" height="64" className="ml-3" src={nodejs} alt="NodeJS" />
 					  </li>
+						<hr/>
 					  <li className="media mb-0">
 						<img width="64" height="64" className="mr-3" src={react} alt="React" />
 						<div className="media-body">
@@ -102,6 +104,7 @@ const Main: FunctionComponent = props => {
 						  React is my best choice to develop UI quickly, with real time updates.
 						</div>
 					  </li>
+						<hr/>
 					  <li className="media my-4 text-right">
 						  <div className="media-body">
 							<h5 className="mt-0 mb-1">Electron</h5>
@@ -109,6 +112,7 @@ const Main: FunctionComponent = props => {
 						  </div>
 						<img width="64" height="64" className="ml-3" src={electron} alt="Electron" />
 					  </li>
+						<hr/>
 					  <li className="media mb-0">
 						<img width="64" height="64" className="mr-3" src={jssquare} alt="JavaScript" />
 						<div className="media-body">
@@ -116,6 +120,7 @@ const Main: FunctionComponent = props => {
 						  A good language but, now, I prefer to start projects with TypeScript.
 						</div>
 					  </li>
+						<hr/>
 					  <li className="media my-4 text-right">
 						  <div className="media-body">
 							<h5 className="mt-0 mb-1">PHP</h5>
@@ -123,6 +128,7 @@ const Main: FunctionComponent = props => {
 						  </div>
 						<img width="64" height="64" className="ml-3" src={php} alt="PHP" />
 					  </li>
+						<hr/>
 					  <li className="media mb-0">
 						<img width="64" height="64" className="mr-3" src={laravel} alt="Laravel" />
 						<div className="media-body">
@@ -130,6 +136,7 @@ const Main: FunctionComponent = props => {
 						  My favorite PHP Framework.
 						</div>
 					  </li>
+						<hr/>
 					  <li className="media my-4 text-right">
 						  <div className="media-body">
 							<h5 className="mt-0 mb-1">C#</h5>
