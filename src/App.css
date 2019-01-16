@@ -59,11 +59,11 @@
 	color: lightblue;
 }
 
-.media {
+/* .media {
   background-color: rgba(194, 194, 194, 0.22);
   border-radius: 5px;
   padding: 10px;
-}
+} */
 
 .list-unstyled > hr {
   border-top: 1px solid rgba(1, 125, 192, 0.26);

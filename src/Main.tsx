@@ -47,12 +47,12 @@ const Main: FunctionComponent = props => {
       description: "Youtube Clone made with Laravel",
       badges: ["php", "laravel"],
     },
-    {
-      image: "https://fakeimg.pl/400x400/",
-      link: "https://github.com/yovanoc/cookiebot/",
-      description: "Dofus PC bot made in C#",
-      badges: ["c#"],
-    },
+    // {
+    //   image: "https://fakeimg.pl/400x400/",
+    //   link: "https://github.com/yovanoc/cookiebot/",
+    //   description: "Dofus PC bot made in C#",
+    //   badges: ["c#"],
+    // },
   ];
 
   return (
