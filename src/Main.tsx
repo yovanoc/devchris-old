@@ -11,12 +11,12 @@ import ts from "./svg/ts.svg";
 
 const Main: FunctionComponent = props => {
   const portfolio: IPortfolio[] = [
-    // {
-    //   image: "./img/cookietouch.png",
-    //   link: "https://cookietouch.com/",
-    //   description: "Dofus Touch bot made with Electron & TypeScript. React and Material UI for the interface.",
-    //   badges: ["nodejs", "react", "typescript", "electron"],
-		// },
+    {
+      image: "./img/cookietouch.png",
+      link: "https://github.com/cookie-project/cookietouch",
+      description: "Dofus Touch bot made with Electron & TypeScript. React and Material UI for the interface.",
+      badges: ["nodejs", "react", "typescript", "electron"],
+		},
 		{
       image: "https://fakeimg.pl/400x400/",
       link: "https://github.com/yovanoc/starter/",
@@ -47,12 +47,12 @@ const Main: FunctionComponent = props => {
       description: "Youtube Clone made with Laravel",
       badges: ["php", "laravel"],
     },
-    // {
-    //   image: "https://fakeimg.pl/400x400/",
-    //   link: "https://github.com/yovanoc/cookiebot/",
-    //   description: "Dofus PC bot made in C#",
-    //   badges: ["c#"],
-    // },
+    {
+      image: "https://fakeimg.pl/400x400/",
+      link: "https://github.com/yovanoc/cookiebot/",
+      description: "Dofus PC bot made in C#",
+      badges: ["c#"],
+    },
   ];
 
   return (
